@@ -1,0 +1,27 @@
+{
+  "name": "meiuca-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:tokens": "yarn build:tokens && chokidar  \"tokens/properties/**/*.json\" -c \"yarn build:tokens\"",
+    "build:tokens": "cd tokens && ../node_modules/.bin/style-dictionary build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feborges28/meiuca-tokens.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feborges28/meiuca-tokens/issues"
+  },
+  "homepage": "https://github.com/feborges28/meiuca-tokens#readme",
+  "dependencies": {
+    "chokidar-cli": "^2.1.0",
+    "node-sass": "^5.0.0",
+    "style-dictionary": "^2.10.2"
+  }
+}

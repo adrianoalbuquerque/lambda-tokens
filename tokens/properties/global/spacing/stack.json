@@ -1,0 +1,19 @@
+{
+    "spacing": {
+        "stack": {
+            "quarck": { "value": "{spacing.quarck.value}" },
+            "nano"  : { "value": "{spacing.nano.value}" },
+            "xxxs"  : { "value": "{spacing.xxxs.value}" },
+            "xxs"   : { "value": "{spacing.xxs.value}" },
+            "xs"    : { "value": "{spacing.xs.value}" },
+            "sm"    : { "value": "{spacing.sm.value}" },
+            "md"    : { "value": "{spacing.md.value}" },
+            "lg"    : { "value": "{spacing.lg.value}" },
+            "xl"    : { "value": "{spacing.xl.value}" },
+            "xxl"   : { "value": "{spacing.xxl.value}" },
+            "xxxl"  : { "value": "{spacing.xxxl.value}" },
+            "huge"  : { "value": "{spacing.huge.value}" },
+            "giant" : { "value": "{spacing.giant.value}" }
+        }
+    }
+}
