@@ -1,10 +1,22 @@
 {
     "spacing": {
         "squish": {
-            "quarck": { "value": "{spacing.quarck.value} {spacing.nano.value}" },
-            "nano"  : { "value": "{spacing.nano.value} {spacing.xxxs.value}" },
-            "xs"  : { "value": "{spacing.xxxs.value} {spacing.xxs.value}" },
-            "sm"    : { "value": "{spacing.xxxs.value} {spacing.xs.value}" }
+            "quarck": {
+                "value": "{spacing.quarck.value} {spacing.nano.value}",
+                "type": "global"
+            },
+            "nano": {
+                "value": "{spacing.nano.value} {spacing.xxxs.value}",
+                "type": "global"
+            },
+            "xs": {
+                "value": "{spacing.xxxs.value} {spacing.xxs.value}",
+                "type": "global"
+            },
+            "sm": {
+                "value": "{spacing.xxxs.value} {spacing.xs.value}",
+                "type": "global"
+            }
         }
     }
 }

@@ -1,12 +1,30 @@
 {
     "spacing": {
         "inset": {
-            "quarck": { "value": "{spacing.quarck.value}" },
-            "nano"  : { "value": "{spacing.nano.value}" },
-            "xs"    : { "value": "{spacing.xxxs.value}" },
-            "sm"    : { "value": "{spacing.xxs.value}" },
-            "md"    : { "value": "{spacing.xs.value}" },
-            "lg"    : { "value": "{spacing.sm.value}" }
+            "quarck": {
+                "value": "{spacing.quarck.value}",
+                "type": "global"
+            },
+            "nano": {
+                "value": "{spacing.nano.value}",
+                "type": "global"
+            },
+            "xs": {
+                "value": "{spacing.xxxs.value}",
+                "type": "global"
+            },
+            "sm": {
+                "value": "{spacing.xxs.value}",
+                "type": "global"
+            },
+            "md": {
+                "value": "{spacing.xs.value}",
+                "type": "global"
+            },
+            "lg": {
+                "value": "{spacing.sm.value}",
+                "type": "global"
+            }
         }
     }
 }

@@ -2,22 +2,28 @@
         "border": {
             "radius": {
                 "none": {
-                    "value": "0px"
+                    "value": "0px",
+                    "type": "global"
                 },
                 "sm": {
-                    "value": "8px"
+                    "value": "8px",
+                    "type": "global"
                 },
                 "md": {
-                    "value": "16px"
+                    "value": "16px",
+                    "type": "global"
                 },
                 "lg": {
-                    "value": "24px"
+                    "value": "24px",
+                    "type": "global"
                 },
                 "pill": {
-                    "value": "500px"
+                    "value": "500px",
+                    "type": "global"
                 },
                 "circular": {
-                    "value": "50%"
+                    "value": "50%",
+                    "type": "global"
                 }
             }
         }

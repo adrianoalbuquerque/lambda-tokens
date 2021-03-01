@@ -2,19 +2,24 @@
     "color": {
         "neutral": {
             "01": {
-                "value": "#000000"
+                "value": "#000000",
+                "type": "brand-01"
             },
             "02": {
-                "value": "#70747B"
+                "value": "#70747B",
+                "type": "brand-01"
             },
             "03": {
-                "value": "#A6AAAF"
+                "value": "#A6AAAF",
+                "type": "brand-01"
             },
             "04": {
-                "value": "#E4E5E7"
+                "value": "#E4E5E7",
+                "type": "brand-01"
             },
             "05": {
-                "value": "#ffffff"
+                "value": "#ffffff",
+                "type": "brand-01"
             }
         }
     }

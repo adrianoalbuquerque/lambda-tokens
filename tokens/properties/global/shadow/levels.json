@@ -2,16 +2,20 @@
     "shadow": {
         "level": {
             "1": {
-                "value": "0px 4px 8px"
+                "value": "0px 4px 8px",
+                "type": "global"
             },
             "2": {
-                "value": "0px 8px 24px"
+                "value": "0px 8px 24px",
+                "type": "global"
             },
             "3": {
-                "value": "0px 16px 32px"
+                "value": "0px 16px 32px",
+                "type": "global"
             },
             "4": {
-                "value": "0px 16px 48px"
+                "value": "0px 16px 48px",
+                "type": "global"
             }
         }
     }

@@ -2,37 +2,48 @@
     "font": {
         "size": {
             "xxxs": {
-                "value": "12px"
+                "value": "12px",
+                "type": "global"
             },
             "xxs": {
-                "value": "14px"
+                "value": "14px",
+                "type": "global"
             },
             "xs": {
-                "value": "16px"
+                "value": "16px",
+                "type": "global"
             },
             "sm": {
-                "value": "20px"
+                "value": "20px",
+                "type": "global"
             },
             "md": {
-                "value": "24px"
+                "value": "24px",
+                "type": "global"
             },
             "lg": {
-                "value": "32px"
+                "value": "32px",
+                "type": "global"
             },
             "xl": {
-                "value": "40px"
+                "value": "40px",
+                "type": "global"
             },
             "xxl": {
-                "value": "48px"
+                "value": "48px",
+                "type": "global"
             },
             "xxxl": {
-                "value": "64px"
+                "value": "64px",
+                "type": "global"
             },
             "display": {
-                "value": "80px"
+                "value": "80px",
+                "type": "global"
             },
             "giant": {
-                "value": "96px"
+                "value": "96px",
+                "type": "global"
             }
         }
     }

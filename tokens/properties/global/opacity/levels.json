@@ -2,19 +2,24 @@
     "opacity": {
         "level": {
             "semiopaque": {
-                "value": 0.80
+                "value": 0.80,
+                "type": "global"
             },
             "intense": {
-                "value": 0.64
+                "value": 0.64,
+                "type": "global"
             },
             "medium": {
-                "value": 0.32
+                "value": 0.32,
+                "type": "global"
             },
             "light": {
-                "value": 0.16
+                "value": 0.16,
+                "type": "global"
             },
             "semitransparent": {
-                "value": 0.08
+                "value": 0.08,
+                "type": "global"
             }
         }
     }

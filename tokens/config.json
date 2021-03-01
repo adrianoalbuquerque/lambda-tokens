@@ -4,14 +4,26 @@
       "scss": {
         "transformGroup": "scss",
         "buildPath": "../build/styles/",
-        "files": [{
-          "destination": "_global-tokens.scss",
-          "format": "scss/variables"
-        }]
+        "files": [
+          {
+            "destination": "_brand-tokens.scss",
+            "format": "scss/variables",
+            "filter": {
+              "type": "brand-01"
+            }
+          },
+          {
+            "destination": "_global-tokens.scss",
+            "format": "scss/variables",
+            "filter": {
+              "type": "global"
+            }
+          }
+        ]
       },
       "android": {
         "transformGroup": "android",
-        "buildPath": "../../build/android/",
+        "buildPath": "../build/android/",
         "files": [{
           "destination": "font_dimens.xml",
           "format": "android/fontDimens"

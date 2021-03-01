@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Mon, 01 Mar 2021 21:00:02 GMT
+-->
+<resources>
+  <color name="color_neutral_01">#ff000000</color>
+  <color name="color_neutral_02">#ff70747b</color>
+  <color name="color_neutral_03">#ffa6aaaf</color>
+  <color name="color_neutral_04">#ffe4e5e7</color>
+  <color name="color_neutral_05">#ffffffff</color>
+  <color name="color_brand_primary_01">#ff691c07</color>
+  <color name="color_brand_primary_02">#ff8f260a</color>
+  <color name="color_brand_primary_03">#fff04e23</color>
+  <color name="color_brand_primary_04">#fffbd1c6</color>
+  <color name="color_brand_primary_05">#fffef0ec</color>
+  
+</resources>

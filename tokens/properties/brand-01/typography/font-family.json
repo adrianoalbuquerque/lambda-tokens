@@ -2,7 +2,8 @@
     "font": {
         "family": {
             "highlight": {
-                "value": "'Poppins', sans-serif"
+                "value": "'Poppins', sans-serif",
+                "type": "brand-01"
             }
         }
     }

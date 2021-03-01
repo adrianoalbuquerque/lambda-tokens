@@ -2,16 +2,20 @@
     "line": {
         "height": {
             "tight": {
-                "value": "100%"
+                "value": "100%",
+                "type": "global"
             },
             "medium": {
-                "value": "110%"
+                "value": "110%",
+                "type": "global"
             },
             "distant": {
-                "value": "150%"
+                "value": "150%",
+                "type": "global"
             },
             "superdistant": {
-                "value": "200%"
+                "value": "200%",
+                "type": "global"
             }
         }
     }

@@ -3,19 +3,39 @@
         "brand": {
             "primary": {
                 "01": {
-                    "value": "#691C07"
+                    "value": "#691C07",
+                    "type": "brand-01",
+                    "attributes": {
+                        "category": "color"
+                      }
                 },
                 "02": {
-                    "value": "#8F260A"
+                    "value": "#8F260A",
+                    "type": "brand-01",
+                    "attributes": {
+                        "category": "color"
+                      }
                 },
                 "03": {
-                    "value": "#F04E23"
+                    "value": "#F04E23",
+                    "type": "brand-01",
+                    "attributes": {
+                        "category": "color"
+                      }
                 },
                 "04": {
-                    "value": "#FBD1C6"
+                    "value": "#FBD1C6",
+                    "type": "brand-01",
+                    "attributes": {
+                        "category": "color"
+                      }
                 },
                 "05": {
-                    "value": "#FEF0EC"
+                    "value": "#FEF0EC",
+                    "type": "brand-01",
+                    "attributes": {
+                        "category": "color"
+                      }
                 }
             }
         }
