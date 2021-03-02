@@ -3,19 +3,19 @@
         "level": {
             "1": {
                 "value": "0px 4px 8px",
-                "type": "global"
+                "type": "globals"
             },
             "2": {
                 "value": "0px 8px 24px",
-                "type": "global"
+                "type": "globals"
             },
             "3": {
                 "value": "0px 16px 32px",
-                "type": "global"
+                "type": "globals"
             },
             "4": {
                 "value": "0px 16px 48px",
-                "type": "global"
+                "type": "globals"
             }
         }
     }

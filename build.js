@@ -1,4 +1,6 @@
 const StyleDictionaryPackage = require('style-dictionary');
+const _ = require('lodash');
+const fs = require('fs');
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
@@ -44,18 +46,18 @@ function getStyleDictionaryConfig(brand, platform) {
                 "files": [
                     {
                         "destination": "tokens-all.plist",
-                        "template": "ios/plist",
+                        "format": "ios/plist",
                         "filter": {
                             "type": brand
                           }
                     },
                     {
                         "destination": "tokens-colors.plist",
-                        "template": "ios/plist",
+                        "format": "ios/plist",
                         "filter":{
-                            "type": "color",
+                            "type": brand,
                             "atributes": {
-                                "brand": brand
+                                "type": "color"
                             }
                         }
                     }
@@ -69,18 +71,19 @@ function getStyleDictionaryConfig(brand, platform) {
                 "files": [
                     {
                         "destination": "tokens-all.xml",
-                        "template": "android/xml",
-                        "filter": {
-                            "type": brand
-                          }
+                        "format": "android/xml",
+                        "filter": "notIsColor"
+                        // "filter": {
+                        //     "type": brand
+                        // }
                     },
                     {
                         "destination": "tokens-colors.xml",
-                        "template": "android/xml",
+                        "format": "android/xml",
                         "filter":{
-                            "type": "color",
+                            "type": brand,
                             "atributes": {
-                                "brand": brand
+                                "type": "color"
                             }
                         }
                     }
@@ -95,6 +98,18 @@ function getStyleDictionaryConfig(brand, platform) {
 // if you want to see the available pre-defined formats, transforms and transform groups uncomment this
 // console.log(StyleDictionaryPackage);
 
+StyleDictionaryPackage.registerFilter({
+    name: 'notIsColor',
+    matcher: function(prop) {
+       if(prop.type === 'globals' && prop.attributes.type !== 'color'){
+           return true
+       }else {
+           return false
+       }
+    //   return prop.attributes.category !== 'color';
+    }
+  })
+
 StyleDictionaryPackage.registerFormat({
     name: 'json/flat',
     formatter: function(dictionary) {
@@ -102,19 +117,19 @@ StyleDictionaryPackage.registerFormat({
     }
 });
 
-StyleDictionaryPackage.registerTemplate({
+StyleDictionaryPackage.registerFormat({
     name: 'ios/plist',
-    template: __dirname + '/templates/ios-plist.template'
+    formatter: _.template( fs.readFileSync(__dirname + '/templates/ios-plist.template'))
 });
 
-StyleDictionaryPackage.registerTemplate({
+StyleDictionaryPackage.registerFormat({
     name: 'android/xml',
-    template: __dirname + '/templates/android-xml.template'
+    formatter: _.template( fs.readFileSync(__dirname + '/templates/android-xml.template'))
 });
 
-StyleDictionaryPackage.registerTemplate({
+StyleDictionaryPackage.registerFormat({
     name: 'android/colors',
-    template: __dirname + '/templates/android-xml.template'
+    formatter: _.template( fs.readFileSync(__dirname + '/templates/android-xml.template'))
 });
 
 StyleDictionaryPackage.registerTransform({

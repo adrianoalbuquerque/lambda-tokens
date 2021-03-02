@@ -3,47 +3,47 @@
         "size": {
             "xxxs": {
                 "value": "12px",
-                "type": "global"
+                "type": "globals"
             },
             "xxs": {
                 "value": "14px",
-                "type": "global"
+                "type": "globals"
             },
             "xs": {
                 "value": "16px",
-                "type": "global"
+                "type": "globals"
             },
             "sm": {
                 "value": "20px",
-                "type": "global"
+                "type": "globals"
             },
             "md": {
                 "value": "24px",
-                "type": "global"
+                "type": "globals"
             },
             "lg": {
                 "value": "32px",
-                "type": "global"
+                "type": "globals"
             },
             "xl": {
                 "value": "40px",
-                "type": "global"
+                "type": "globals"
             },
             "xxl": {
                 "value": "48px",
-                "type": "global"
+                "type": "globals"
             },
             "xxxl": {
                 "value": "64px",
-                "type": "global"
+                "type": "globals"
             },
             "display": {
                 "value": "80px",
-                "type": "global"
+                "type": "globals"
             },
             "giant": {
                 "value": "96px",
-                "type": "global"
+                "type": "globals"
             }
         }
     }

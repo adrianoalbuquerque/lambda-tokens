@@ -1,0 +1,41 @@
+{
+    "color": {
+        "neutral": {
+            "01": {
+                "value": "#000000",
+                "type": "brand-01",
+                "atributes": {
+                    "type": "color"
+                }
+            },
+            "02": {
+                "value": "#70747B",
+                "type": "globals",
+                "atributes": {
+                    "brand": "brand-01"
+                }
+            },
+            "03": {
+                "value": "#A6AAAF",
+                "type": "globals",
+                "atributes": {
+                    "brand": "brand-01"
+                }
+            },
+            "04": {
+                "value": "#E4E5E7",
+                "type": "globals",
+                "atributes": {
+                    "brand": "brand-01"
+                }
+            },
+            "05": {
+                "value": "#ffffff",
+                "type": "globals",
+                "atributes": {
+                    "brand": "brand-01"
+                }
+            }
+        }
+    }
+}

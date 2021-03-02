@@ -3,15 +3,15 @@
         "weight": {
             "regular": {
                 "value": "400",
-                "type": "global"
+                "type": "brand-01"
             },
             "medium": {
                 "value": "600",
-                "type": "global"
+                "type": "brand-01"
             },
             "bold": {
                 "value": "700",
-                "type": "global"
+                "type": "brand-01"
             }
         }
     }

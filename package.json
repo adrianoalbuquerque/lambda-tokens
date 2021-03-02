@@ -20,6 +20,7 @@
   "homepage": "https://github.com/feborges28/meiuca-tokens#readme",
   "dependencies": {
     "chokidar-cli": "^2.1.0",
+    "lodash": "^4.17.21",
     "node-sass": "^5.0.0",
     "style-dictionary": "^2.10.2"
   }

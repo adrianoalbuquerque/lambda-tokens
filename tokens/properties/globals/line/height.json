@@ -3,19 +3,19 @@
         "height": {
             "tight": {
                 "value": "100%",
-                "type": "global"
+                "type": "globals"
             },
             "medium": {
                 "value": "110%",
-                "type": "global"
+                "type": "globals"
             },
             "distant": {
                 "value": "150%",
-                "type": "global"
+                "type": "globals"
             },
             "superdistant": {
                 "value": "200%",
-                "type": "global"
+                "type": "globals"
             }
         }
     }

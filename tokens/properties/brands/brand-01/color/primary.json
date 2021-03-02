@@ -4,23 +4,23 @@
             "primary": {
                 "01": {
                     "value": "#691C07",
-                    "type": "color"
+                    "type": "globals"
                 },
                 "02": {
                     "value": "#8F260A",
-                    "type": "color"
+                    "type": "globals"
                 },
                 "03": {
                     "value": "#F04E23",
-                    "type": "color"
+                    "type": "globals"
                 },
                 "04": {
                     "value": "#FBD1C6",
-                    "type": "color"
+                    "type": "globals"
                 },
                 "05": {
                     "value": "#FEF0EC",
-                    "type": "color"
+                    "type": "globals"
                 }
             }
         }

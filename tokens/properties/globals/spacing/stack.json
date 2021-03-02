@@ -3,55 +3,55 @@
         "stack": {
             "quarck": {
                 "value": "{spacing.quarck.value}",
-                "type": "global"
+                "type": "globals"
             },
             "nano": {
                 "value": "{spacing.nano.value}",
-                "type": "global"
+                "type": "globals"
             },
             "xxxs": {
                 "value": "{spacing.xxxs.value}",
-                "type": "global"
+                "type": "globals"
             },
             "xxs": {
                 "value": "{spacing.xxs.value}",
-                "type": "global"
+                "type": "globals"
             },
             "xs": {
                 "value": "{spacing.xs.value}",
-                "type": "global"
+                "type": "globals"
             },
             "sm": {
                 "value": "{spacing.sm.value}",
-                "type": "global"
+                "type": "globals"
             },
             "md": {
                 "value": "{spacing.md.value}",
-                "type": "global"
+                "type": "globals"
             },
             "lg": {
                 "value": "{spacing.lg.value}",
-                "type": "global"
+                "type": "globals"
             },
             "xl": {
                 "value": "{spacing.xl.value}",
-                "type": "global"
+                "type": "globals"
             },
             "xxl": {
                 "value": "{spacing.xxl.value}",
-                "type": "global"
+                "type": "globals"
             },
             "xxxl": {
                 "value": "{spacing.xxxl.value}",
-                "type": "global"
+                "type": "globals"
             },
             "huge": {
                 "value": "{spacing.huge.value}",
-                "type": "global"
+                "type": "globals"
             },
             "giant": {
                 "value": "{spacing.giant.value}",
-                "type": "global"
+                "type": "globals"
             }
         }
     }

@@ -4,7 +4,10 @@
             "primary": {
                 "01": {
                     "value": "#691C07",
-                    "type": "color"
+                    "type": "globals",
+                    "atributes": {
+                        "type": "color"
+                    }
                 },
                 "02": {
                     "value": "#8F260A",
