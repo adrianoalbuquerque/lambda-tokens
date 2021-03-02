@@ -3,27 +3,27 @@
             "radius": {
                 "none": {
                     "value": "0px",
-                    "type": "global"
+                    "type": "globals"
                 },
                 "sm": {
                     "value": "8px",
-                    "type": "global"
+                    "type": "globals"
                 },
                 "md": {
                     "value": "16px",
-                    "type": "global"
+                    "type": "globals"
                 },
                 "lg": {
                     "value": "24px",
-                    "type": "global"
+                    "type": "globals"
                 },
                 "pill": {
                     "value": "500px",
-                    "type": "global"
+                    "type": "globals"
                 },
                 "circular": {
                     "value": "50%",
-                    "type": "global"
+                    "type": "globals"
                 }
             }
         }

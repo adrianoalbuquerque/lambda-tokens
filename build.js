@@ -3,28 +3,34 @@ const StyleDictionaryPackage = require('style-dictionary');
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
 function getStyleDictionaryConfig(brand, platform) {
+    let source = "tokens/properties/globals/**/*.json";
+    let buildPath = {
+        web: 'dist/web/',
+        ios: 'dist/ios/',
+        android: 'dist/android/'
+
+    }
+    if(brand !== 'globals'){
+        source = `tokens/properties/brands/${brand}/**/*.json`;
+        buildPath ={
+            web: `dist/web/${brand}/`,
+            ios: `dist/ios/${brand}/`,
+            android: `dist/android/${brand}/`
+        }
+    }
+
     return {
-        "source": [
-            `tokens/properties/brands/${brand}/**/*.json`,
-            "tokens/properties/globals/**/*.json"
-        ],
+        "source": [source],
         "platforms": {
             "web/scss": {
                 "transformGroup": "tokens-scss",
-                "buildPath": `dist/web/${brand}/`,
+                "buildPath": buildPath.web,
                 "files": [
                     {
-                        "destination": "_brand-tokens.scss",
+                        "destination": `_${brand}-tokens.scss`,
                         "format": "scss/variables",
                         "filter": {
-                          "type": "color"
-                        }
-                      },
-                      {
-                        "destination": "_global-tokens.scss",
-                        "format": "scss/variables",
-                        "filter": {
-                          "type": "global"
+                          "type": brand
                         }
                       }
                 ]
@@ -34,20 +40,23 @@ function getStyleDictionaryConfig(brand, platform) {
                 // I have used custom formats for iOS but keep in mind that Style Dictionary offers some default formats/templates for iOS,
                 // so have a look at the documentation before creating custom templates/formats, maybe they already work for you :)
                 "transformGroup": "tokens-ios",
-                "buildPath": `dist/ios/${brand}/`,
+                "buildPath": buildPath.ios,
                 "files": [
                     {
                         "destination": "tokens-all.plist",
                         "template": "ios/plist",
                         "filter": {
-                            "type": "global"
+                            "type": brand
                           }
                     },
                     {
                         "destination": "tokens-colors.plist",
                         "template": "ios/plist",
                         "filter":{
-                            "type": "color"
+                            "type": "color",
+                            "atributes": {
+                                "brand": brand
+                            }
                         }
                     }
                 ]
@@ -56,20 +65,23 @@ function getStyleDictionaryConfig(brand, platform) {
                 // I have used custom formats for Android but keep in mind that Style Dictionary offers some default formats/templates for Android,
                 // so have a look at the documentation before creating custom templates/formats, maybe they already work for you :)
                 "transformGroup": "tokens-android",
-                "buildPath": `dist/android/${brand}/`,
+                "buildPath": buildPath.android,
                 "files": [
                     {
                         "destination": "tokens-all.xml",
                         "template": "android/xml",
                         "filter": {
-                            "type": "global"
+                            "type": brand
                           }
                     },
                     {
                         "destination": "tokens-colors.xml",
                         "template": "android/xml",
                         "filter":{
-                            "type": "color"
+                            "type": "color",
+                            "atributes": {
+                                "brand": brand
+                            }
                         }
                     }
                 ]
@@ -152,8 +164,9 @@ console.log('Build started...');
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
 ['web', 'ios', 'android'].map(function(platform) {
+
     //OS VALORES DOS INDICES DO ARRAY SÃO REFERENTES AS PASTAS DE CADA MARCA
-    ['brand-01', 'brand-02'].map(function(brand) {
+    ['globals', 'brand-01', 'brand-02'].map(function(brand) {
 
         console.log('\n==============================================');
         console.log(`\nProcessing: [${platform}] [${brand}]`);
