@@ -1,0 +1,28 @@
+{
+    "color": {
+        "brand": {
+            "primary": {
+                "01": {
+                    "value": "red",
+                    "type": "color"
+                },
+                "02": {
+                    "value": "yellow",
+                    "type": "color"
+                },
+                "03": {
+                    "value": "blue",
+                    "type": "color"
+                },
+                "04": {
+                    "value": "orange",
+                    "type": "color"
+                },
+                "05": {
+                    "value": "white",
+                    "type": "color"
+                }
+            }
+        }
+    }
+}

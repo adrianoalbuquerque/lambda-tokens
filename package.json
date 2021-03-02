@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:tokens": "yarn build:tokens && chokidar  \"tokens/properties/**/*.json\" -c \"yarn build:tokens\"",
-    "build:tokens": "cd tokens && ../node_modules/.bin/style-dictionary build"
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",

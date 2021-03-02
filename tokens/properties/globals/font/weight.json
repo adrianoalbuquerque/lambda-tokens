@@ -2,15 +2,15 @@
     "font": {
         "weight": {
             "regular": {
-                "value": 400,
+                "value": "400",
                 "type": "global"
             },
             "medium": {
-                "value": 600,
+                "value": "600",
                 "type": "global"
             },
             "bold": {
-                "value": 700,
+                "value": "700",
                 "type": "global"
             }
         }
