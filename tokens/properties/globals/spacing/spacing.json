@@ -2,55 +2,55 @@
     "spacing": {
         "quarck": {
             "value": "4px",
-            "type": "globals"
+            "brand": "globals"
         },
         "nano": {
             "value": "8px",
-            "type": "globals"
+            "brand": "globals"
         },
         "xxxs": {
             "value": "16px",
-            "type": "globals"
+            "brand": "globals"
         },
         "xxs": {
             "value": "24px",
-            "type": "globals"
+            "brand": "globals"
         },
         "xs": {
             "value": "32px",
-            "type": "globals"
+            "brand": "globals"
         },
         "sm": {
             "value": "40px",
-            "type": "globals"
+            "brand": "globals"
         },
         "md": {
             "value": "48px",
-            "type": "globals"
+            "brand": "globals"
         },
         "lg": {
             "value": "56px",
-            "type": "globals"
+            "brand": "globals"
         },
         "xl": {
             "value": "64px",
-            "type": "globals"
+            "brand": "globals"
         },
         "xxl": {
             "value": "80px",
-            "type": "globals"
+            "brand": "globals"
         },
         "xxxl": {
             "value": "120px",
-            "type": "globals"
+            "brand": "globals"
         },
         "huge": {
             "value": "160px",
-            "type": "globals"
+            "brand": "globals"
         },
         "giant": {
             "value": "200px",
-            "type": "globals"
+            "brand": "globals"
         }
     }
 }

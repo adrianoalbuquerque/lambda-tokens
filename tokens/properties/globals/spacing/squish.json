@@ -3,19 +3,19 @@
         "squish": {
             "quarck": {
                 "value": "{spacing.quarck.value} {spacing.nano.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "nano": {
                 "value": "{spacing.nano.value} {spacing.xxxs.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "xs": {
                 "value": "{spacing.xxxs.value} {spacing.xxs.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "sm": {
                 "value": "{spacing.xxxs.value} {spacing.xs.value}",
-                "type": "globals"
+                "brand": "globals"
             }
         }
     }

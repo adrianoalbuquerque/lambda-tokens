@@ -32,7 +32,7 @@ function getStyleDictionaryConfig(brand, platform) {
                         "destination": `_${brand}-tokens.scss`,
                         "format": "scss/variables",
                         "filter": {
-                          "type": brand
+                          "brand": brand
                         }
                       }
                 ]
@@ -47,19 +47,12 @@ function getStyleDictionaryConfig(brand, platform) {
                     {
                         "destination": "tokens-all.plist",
                         "format": "ios/plist",
-                        "filter": {
-                            "type": brand
-                          }
+                        "filter": "notIsColor"
                     },
                     {
                         "destination": "tokens-colors.plist",
                         "format": "ios/plist",
-                        "filter":{
-                            "type": brand,
-                            "atributes": {
-                                "type": "color"
-                            }
-                        }
+                        "filter": "isColor"
                     }
                 ]
             },
@@ -73,19 +66,11 @@ function getStyleDictionaryConfig(brand, platform) {
                         "destination": "tokens-all.xml",
                         "format": "android/xml",
                         "filter": "notIsColor"
-                        // "filter": {
-                        //     "type": brand
-                        // }
                     },
                     {
                         "destination": "tokens-colors.xml",
                         "format": "android/xml",
-                        "filter":{
-                            "type": brand,
-                            "atributes": {
-                                "type": "color"
-                            }
-                        }
+                        "filter": "isColor"
                     }
                 ]
             }
@@ -97,18 +82,6 @@ function getStyleDictionaryConfig(brand, platform) {
 
 // if you want to see the available pre-defined formats, transforms and transform groups uncomment this
 // console.log(StyleDictionaryPackage);
-
-StyleDictionaryPackage.registerFilter({
-    name: 'notIsColor',
-    matcher: function(prop) {
-       if(prop.type === 'globals' && prop.attributes.type !== 'color'){
-           return true
-       }else {
-           return false
-       }
-    //   return prop.attributes.category !== 'color';
-    }
-  })
 
 StyleDictionaryPackage.registerFormat({
     name: 'json/flat',
@@ -185,6 +158,20 @@ console.log('Build started...');
 
         console.log('\n==============================================');
         console.log(`\nProcessing: [${platform}] [${brand}]`);
+
+        StyleDictionaryPackage.registerFilter({
+            name: 'notIsColor',
+            matcher: function(prop) {
+                return prop.brand === brand && prop.attributes.category !== 'color';
+            }
+        })
+
+          StyleDictionaryPackage.registerFilter({
+            name: 'isColor',
+            matcher: function(prop) {
+                return prop.brand === brand && prop.attributes.category === 'color';
+            }
+        })
 
         const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(brand, platform));
 

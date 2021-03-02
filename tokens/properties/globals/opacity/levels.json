@@ -3,23 +3,28 @@
         "level": {
             "semiopaque": {
                 "value": 0.80,
-                "type": "globals"
+                "type": "opacity",
+                "brand": "globals"
             },
             "intense": {
                 "value": 0.64,
-                "type": "globals"
+                "type": "opacity",
+                "brand": "globals"
             },
             "medium": {
                 "value": "0.32",
-                "type": "globals"
+                "type": "opacity",
+                "brand": "globals"
             },
             "light": {
                 "value": "0.16",
-                "type": "globals"
+                "type": "opacity",
+                "brand": "globals"
             },
             "semitransparent": {
                 "value": "0.08",
-                "type": "globals"
+                "type": "opacity",
+                "brand": "globals"
             }
         }
     }

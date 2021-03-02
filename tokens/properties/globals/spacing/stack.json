@@ -3,55 +3,55 @@
         "stack": {
             "quarck": {
                 "value": "{spacing.quarck.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "nano": {
                 "value": "{spacing.nano.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "xxxs": {
                 "value": "{spacing.xxxs.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "xxs": {
                 "value": "{spacing.xxs.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "xs": {
                 "value": "{spacing.xs.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "sm": {
                 "value": "{spacing.sm.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "md": {
                 "value": "{spacing.md.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "lg": {
                 "value": "{spacing.lg.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "xl": {
                 "value": "{spacing.xl.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "xxl": {
                 "value": "{spacing.xxl.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "xxxl": {
                 "value": "{spacing.xxxl.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "huge": {
                 "value": "{spacing.huge.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "giant": {
                 "value": "{spacing.giant.value}",
-                "type": "globals"
+                "brand": "globals"
             }
         }
     }

@@ -2,8 +2,7 @@
 <%
 var allProperties = _.each(allProperties, function(prop) {
     // here I am mimicking the pre-defined Android formats that come with Style Dictionary, but using my "custom" categories (declared directly with the value as "type" prop)
-
-    if(prop?.atributes?.type === 'color') {
+    if(prop.type === 'color') {
         prop.tag = 'color';
     } else if(prop.type === 'size') {
         prop.tag = 'dimen';

@@ -3,23 +3,23 @@
         "width": {
             "none": {
                 "value": "0px",
-                "type": "globals"
+                "brand": "globals"
             },
             "hairline": {
                 "value": "1px",
-                "type": "globals"
+                "brand": "globals"
             },
             "thin": {
                 "value": "2px",
-                "type": "globals"
+                "brand": "globals"
             },
             "thick": {
                 "value": "4px",
-                "type": "globals"
+                "brand": "globals"
             },
             "heavy": {
                 "value": "8px",
-                "type": "globals"
+                "brand": "globals"
             }
         }
     }

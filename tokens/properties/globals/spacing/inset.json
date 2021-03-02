@@ -3,27 +3,27 @@
         "inset": {
             "quarck": {
                 "value": "{spacing.quarck.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "nano": {
                 "value": "{spacing.nano.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "xs": {
                 "value": "{spacing.xxxs.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "sm": {
                 "value": "{spacing.xxs.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "md": {
                 "value": "{spacing.xs.value}",
-                "type": "globals"
+                "brand": "globals"
             },
             "lg": {
                 "value": "{spacing.sm.value}",
-                "type": "globals"
+                "brand": "globals"
             }
         }
     }

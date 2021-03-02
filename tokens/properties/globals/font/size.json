@@ -3,47 +3,47 @@
         "size": {
             "xxxs": {
                 "value": "12px",
-                "type": "globals"
+                "brand": "globals"
             },
             "xxs": {
                 "value": "14px",
-                "type": "globals"
+                "brand": "globals"
             },
             "xs": {
                 "value": "16px",
-                "type": "globals"
+                "brand": "globals"
             },
             "sm": {
                 "value": "20px",
-                "type": "globals"
+                "brand": "globals"
             },
             "md": {
                 "value": "24px",
-                "type": "globals"
+                "brand": "globals"
             },
             "lg": {
                 "value": "32px",
-                "type": "globals"
+                "brand": "globals"
             },
             "xl": {
                 "value": "40px",
-                "type": "globals"
+                "brand": "globals"
             },
             "xxl": {
                 "value": "48px",
-                "type": "globals"
+                "brand": "globals"
             },
             "xxxl": {
                 "value": "64px",
-                "type": "globals"
+                "brand": "globals"
             },
             "display": {
                 "value": "80px",
-                "type": "globals"
+                "brand": "globals"
             },
             "giant": {
                 "value": "96px",
-                "type": "globals"
+                "brand": "globals"
             }
         }
     }

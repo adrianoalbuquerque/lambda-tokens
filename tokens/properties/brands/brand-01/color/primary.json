@@ -4,23 +4,28 @@
             "primary": {
                 "01": {
                     "value": "#691C07",
-                    "type": "globals"
+                    "type": "color",
+                    "brand": "brand-01"
                 },
                 "02": {
                     "value": "#8F260A",
-                    "type": "globals"
+                    "type": "color",
+                    "brand": "brand-01"
                 },
                 "03": {
                     "value": "#F04E23",
-                    "type": "globals"
+                    "type": "color",
+                    "brand": "brand-01"
                 },
                 "04": {
                     "value": "#FBD1C6",
-                    "type": "globals"
+                    "type": "color",
+                    "brand": "brand-01"
                 },
                 "05": {
                     "value": "#FEF0EC",
-                    "type": "globals"
+                    "type": "color",
+                    "brand": "brand-01"
                 }
             }
         }

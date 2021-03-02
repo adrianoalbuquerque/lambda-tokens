@@ -3,7 +3,7 @@
         "family": {
             "highlight": {
                 "value": "'Poppins', sans-serif",
-                "type": "brand-01",
+                "brand": "brand-02",
                 "attributes": {"font": "base"}
             }
         }
