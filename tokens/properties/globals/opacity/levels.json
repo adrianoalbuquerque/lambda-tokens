@@ -2,11 +2,11 @@
     "opacity": {
         "level": {
             "semiopaque": {
-                "value": "0.80",
+                "value": 0.80,
                 "type": "global"
             },
             "intense": {
-                "value": "0.64",
+                "value": 0.64,
                 "type": "global"
             },
             "medium": {
