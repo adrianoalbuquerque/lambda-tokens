@@ -1,0 +1,11 @@
+{
+  "font": {
+    "family": {
+      "base": {
+        "value": "Inter",
+        "brand": "globals",
+        "attributes": {"font": "base"}
+      }
+    }
+  }
+}

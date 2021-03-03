@@ -12,17 +12,17 @@
                 "brand": "globals"
             },
             "medium": {
-                "value": "0.32",
+                "value": 0.40,
                 "type": "opacity",
                 "brand": "globals"
             },
             "light": {
-                "value": "0.16",
+                "value": 0.16,
                 "type": "opacity",
                 "brand": "globals"
             },
             "semitransparent": {
-                "value": "0.08",
+                "value": 0.08,
                 "type": "opacity",
                 "brand": "globals"
             }

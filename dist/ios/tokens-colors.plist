@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<dict>
+    <key>colorFeedbackPositivePure</key><string>#308812</string>
+    <key>colorFeedbackPositiveDark</key><string>#2B7A10</string>
+    <key>colorFeedbackPositiveLight</key><string>#DEF9D4</string>
+    <key>colorFeedbackNegativePure</key><string>#CC3030</string>
+    <key>colorFeedbackNegativeDark</key><string>#B82B2B</string>
+    <key>colorFeedbackNegativeLight</key><string>#FFE4E4</string>
+    <key>colorFeedbackInfoPure</key><string>#7530CC</string>
+    <key>colorFeedbackInfoDark</key><string>#692BB8</string>
+    <key>colorFeedbackInfoLight</key><string>#F0E3FF</string>
+    <key>colorNeutralLightPure</key><string>#FFFFFF</string>
+    <key>colorNeutralLightUp</key><string>#F4F4F4</string>
+    <key>colorNeutralLightDown</key><string>#EAEAEA</string>
+    <key>colorNeutralMedium</key><string>#C8C8C8</string>
+    <key>colorNeutralDarkPure</key><string>#666666</string>
+    <key>colorNeutralDarkUp</key><string>#3D3D3D</string>
+    <key>colorNeutralDarkDown</key><string>#121212</string>
+    <key>colorBrandPrimaryPure</key><string>#2976D3</string>
+    <key>colorBrandPrimaryDark</key><string>#004191</string>
+    <key>colorBrandPrimaryLight</key><string>#E3F0FF</string>
+    
+</dict>
+</plist>

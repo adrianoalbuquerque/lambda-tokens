@@ -1,20 +1,20 @@
 {
     "spacing": {
         "squish": {
-            "quarck": {
-                "value": "{spacing.quarck.value} {spacing.nano.value}",
-                "brand": "globals"
-            },
-            "nano": {
-                "value": "{spacing.nano.value} {spacing.xxxs.value}",
-                "brand": "globals"
-            },
             "xs": {
                 "value": "{spacing.xxxs.value} {spacing.xxs.value}",
                 "brand": "globals"
             },
             "sm": {
-                "value": "{spacing.xxxs.value} {spacing.xs.value}",
+                "value": "{spacing.xxs.value} {spacing.xs.value}",
+                "brand": "globals"
+            },
+            "md": {
+                "value": "{spacing.xxs.value} {spacing.sm.value}",
+                "brand": "globals"
+            },
+            "lg": {
+                "value": "{spacing.xs.value} {spacing.md.value}",
                 "brand": "globals"
             }
         }

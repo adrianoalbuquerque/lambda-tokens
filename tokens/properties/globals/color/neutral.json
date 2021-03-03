@@ -1,0 +1,45 @@
+{
+    "color": {
+        "neutral": {
+            "light": {
+                "pure": {
+                    "value": "#FFFFFF",
+                    "type": "color",
+                    "brand": "globals"
+                },
+                "up": {
+                    "value": "#F4F4F4",
+                    "type": "color",
+                    "brand": "globals"
+                },
+                "down": {
+                    "value": "#EAEAEA",
+                    "type": "color",
+                    "brand": "globals"
+                }
+            },
+            "medium": {
+                "value": "#C8C8C8",
+                "type": "color",
+                "brand": "globals"
+            },
+            "dark": {
+                "pure": {
+                    "value": "#666666",
+                    "type": "color",
+                    "brand": "globals"
+                },
+                "up": {
+                    "value": "#3D3D3D",
+                    "type": "color",
+                    "brand": "globals"
+                },
+                "down": {
+                    "value": "#121212",
+                    "type": "color",
+                    "brand": "globals"
+                }
+            }
+        }
+    }
+}

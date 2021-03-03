@@ -1,0 +1,26 @@
+{
+  "font": {
+    "weight": {
+      "light": {
+        "value":"300",
+        "brand": "globals"
+      },
+      "regular": {
+        "value":"400",
+        "brand": "globals"
+      },
+      "medium": {
+        "value":"500",
+        "brand": "globals"
+      },
+      "bold": {
+        "value":"700",
+        "brand": "globals"
+      },
+      "black": {
+        "value":"900",
+        "brand": "globals"
+      }
+    }
+  }
+}

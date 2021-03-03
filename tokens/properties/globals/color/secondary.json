@@ -1,0 +1,23 @@
+{
+  "color": {
+      "brand": {
+          "primary": {
+              "pure": {
+                  "value": "#2976D3",
+                  "type": "color",
+                  "brand": "globals"
+              },
+              "dark": {
+                  "value": "#004191",
+                  "type": "color",
+                  "brand": "globals"
+              },
+              "light": {
+                  "value": "#E3F0FF",
+                  "type": "color",
+                  "brand": "globals"
+              }
+          }
+      }
+  }
+}

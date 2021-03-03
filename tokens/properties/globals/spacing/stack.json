@@ -1,14 +1,6 @@
 {
     "spacing": {
         "stack": {
-            "quarck": {
-                "value": "{spacing.quarck.value}",
-                "brand": "globals"
-            },
-            "nano": {
-                "value": "{spacing.nano.value}",
-                "brand": "globals"
-            },
             "xxxs": {
                 "value": "{spacing.xxxs.value}",
                 "brand": "globals"
@@ -43,14 +35,6 @@
             },
             "xxxl": {
                 "value": "{spacing.xxxl.value}",
-                "brand": "globals"
-            },
-            "huge": {
-                "value": "{spacing.huge.value}",
-                "brand": "globals"
-            },
-            "giant": {
-                "value": "{spacing.giant.value}",
                 "brand": "globals"
             }
         }

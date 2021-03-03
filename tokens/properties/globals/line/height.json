@@ -1,20 +1,24 @@
 {
     "line": {
         "height": {
-            "tight": {
+            "default": {
                 "value": "100%",
                 "brand": "globals"
             },
-            "medium": {
-                "value": "110%",
+            "tiny": {
+                "value": "120%",
                 "brand": "globals"
             },
-            "distant": {
+            "small": {
+                "value": "140%",
+                "brand": "globals"
+            },
+            "medium": {
                 "value": "150%",
                 "brand": "globals"
             },
-            "superdistant": {
-                "value": "200%",
+            "large": {
+                "value": "170%",
                 "brand": "globals"
             }
         }

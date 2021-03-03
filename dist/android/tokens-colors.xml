@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <color name="colorFeedbackPositivePure">#308812</color>
+    <color name="colorFeedbackPositiveDark">#2B7A10</color>
+    <color name="colorFeedbackPositiveLight">#DEF9D4</color>
+    <color name="colorFeedbackNegativePure">#CC3030</color>
+    <color name="colorFeedbackNegativeDark">#B82B2B</color>
+    <color name="colorFeedbackNegativeLight">#FFE4E4</color>
+    <color name="colorFeedbackInfoPure">#7530CC</color>
+    <color name="colorFeedbackInfoDark">#692BB8</color>
+    <color name="colorFeedbackInfoLight">#F0E3FF</color>
+    <color name="colorNeutralLightPure">#FFFFFF</color>
+    <color name="colorNeutralLightUp">#F4F4F4</color>
+    <color name="colorNeutralLightDown">#EAEAEA</color>
+    <color name="colorNeutralMedium">#C8C8C8</color>
+    <color name="colorNeutralDarkPure">#666666</color>
+    <color name="colorNeutralDarkUp">#3D3D3D</color>
+    <color name="colorNeutralDarkDown">#121212</color>
+    <color name="colorBrandPrimaryPure">#2976D3</color>
+    <color name="colorBrandPrimaryDark">#004191</color>
+    <color name="colorBrandPrimaryLight">#E3F0FF</color>
+    
+</resources>

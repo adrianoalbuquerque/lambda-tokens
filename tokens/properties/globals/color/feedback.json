@@ -1,0 +1,57 @@
+{
+  "color": {
+    "feedback": {
+      "positive": {
+        "pure": {
+          "value": "#308812",
+          "type": "color",
+          "brand": "globals"
+        },
+        "dark": {
+          "value": "#2B7A10",
+          "type": "color",
+          "brand": "globals"
+        },
+        "light": {
+          "value": "#DEF9D4",
+          "type": "color",
+          "brand": "globals"
+        }
+      },
+      "negative": {
+        "pure": {
+          "value": "#CC3030",
+          "type": "color",
+          "brand": "globals"
+        },
+        "dark": {
+          "value": "#B82B2B",
+          "type": "color",
+          "brand": "globals"
+        },
+        "light": {
+          "value": "#FFE4E4",
+          "type": "color",
+          "brand": "globals"
+        }
+      },
+      "info": {
+        "pure": {
+          "value": "#7530CC",
+          "type": "color",
+          "brand": "globals"
+        },
+        "dark": {
+          "value": "#692BB8",
+          "type": "color",
+          "brand": "globals"
+        },
+        "light": {
+          "value": "#F0E3FF",
+          "type": "color",
+          "brand": "globals"
+        }
+      }
+    }
+  }
+}

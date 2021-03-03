@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<dict>
+    <key>borderRadiusNone</key><string>0pt</string>
+    <key>borderRadiusSm</key><string>4pt</string>
+    <key>borderRadiusMd</key><string>8pt</string>
+    <key>borderRadiusLg</key><string>16pt</string>
+    <key>borderRadiusPill</key><string>80pt</string>
+    <key>borderRadiusCircular</key><string>100%</string>
+    <key>borderWidthNone</key><string>0pt</string>
+    <key>borderWidthSm</key><string>1pt</string>
+    <key>borderWidthMd</key><string>2pt</string>
+    <key>borderWidthLg</key><string>4pt</string>
+    <key>fontFamilyBase</key><string>Inter</string>
+    <key>fontSizeXxxs</key><string>12pt</string>
+    <key>fontSizeXxs</key><string>14pt</string>
+    <key>fontSizeXs</key><string>16pt</string>
+    <key>fontSizeSm</key><string>20pt</string>
+    <key>fontSizeMd</key><string>24pt</string>
+    <key>fontSizeLg</key><string>32pt</string>
+    <key>fontSizeXl</key><string>40pt</string>
+    <key>fontSizeXxl</key><string>48pt</string>
+    <key>fontSizeXxxl</key><string>64pt</string>
+    <key>fontSizeDisplay</key><string>80pt</string>
+    <key>fontWeightLight</key><string>300</string>
+    <key>fontWeightRegular</key><string>400</string>
+    <key>fontWeightMedium</key><string>500</string>
+    <key>fontWeightBold</key><string>700</string>
+    <key>fontWeightBlack</key><string>900</string>
+    <key>lineHeightDefault</key><string>100%</string>
+    <key>lineHeightTiny</key><string>120%</string>
+    <key>lineHeightSmall</key><string>140%</string>
+    <key>lineHeightMedium</key><string>150%</string>
+    <key>lineHeightLarge</key><string>170%</string>
+    <key>opacityLevelSemiopaque</key><real>0.8</real>
+    <key>opacityLevelIntense</key><real>0.64</real>
+    <key>opacityLevelMedium</key><real>0.4</real>
+    <key>opacityLevelLight</key><real>0.16</real>
+    <key>opacityLevelSemitransparent</key><real>0.08</real>
+    <key>shadowSmall</key><string>0px 4px 8px</string>
+    <key>shadowMedium</key><string>0px 8px 16px</string>
+    <key>shadowLarge</key><string>0px 16px 32px</string>
+    <key>spacingInlineXxxs</key><string>4pt</string>
+    <key>spacingInlineXxs</key><string>8pt</string>
+    <key>spacingInlineXs</key><string>16pt</string>
+    <key>spacingInlineSm</key><string>24pt</string>
+    <key>spacingInlineMd</key><string>32pt</string>
+    <key>spacingInlineLg</key><string>40pt</string>
+    <key>spacingInlineXl</key><string>48pt</string>
+    <key>spacingInlineXxl</key><string>64pt</string>
+    <key>spacingInlineXxxl</key><string>80pt</string>
+    <key>spacingInsetXxs</key><string>4pt</string>
+    <key>spacingInsetXs</key><string>8pt</string>
+    <key>spacingInsetSm</key><string>16pt</string>
+    <key>spacingInsetMd</key><string>24pt</string>
+    <key>spacingInsetLg</key><string>32pt</string>
+    <key>spacingInsetXl</key><string>40pt</string>
+    <key>spacingXxxs</key><string>4pt</string>
+    <key>spacingXxs</key><string>8pt</string>
+    <key>spacingXs</key><string>16pt</string>
+    <key>spacingSm</key><string>24pt</string>
+    <key>spacingMd</key><string>32pt</string>
+    <key>spacingLg</key><string>40pt</string>
+    <key>spacingXl</key><string>48pt</string>
+    <key>spacingXxl</key><string>64pt</string>
+    <key>spacingXxxl</key><string>80pt</string>
+    <key>spacingSquishXs</key><string>4pt 8pt</string>
+    <key>spacingSquishSm</key><string>8pt 16pt</string>
+    <key>spacingSquishMd</key><string>8pt 24pt</string>
+    <key>spacingSquishLg</key><string>16pt 32pt</string>
+    <key>spacingStackXxxs</key><string>4pt</string>
+    <key>spacingStackXxs</key><string>8pt</string>
+    <key>spacingStackXs</key><string>16pt</string>
+    <key>spacingStackSm</key><string>24pt</string>
+    <key>spacingStackMd</key><string>32pt</string>
+    <key>spacingStackLg</key><string>40pt</string>
+    <key>spacingStackXl</key><string>48pt</string>
+    <key>spacingStackXxl</key><string>64pt</string>
+    <key>spacingStackXxxl</key><string>80pt</string>
+    
+</dict>
+</plist>

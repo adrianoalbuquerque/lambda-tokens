@@ -154,7 +154,7 @@ console.log('Build started...');
 ['web', 'ios', 'android'].map(function(platform) {
 
     //OS VALORES DOS INDICES DO ARRAY SÃO REFERENTES AS PASTAS DE CADA MARCA
-    ['globals', 'brand-01', 'brand-02'].map(function(brand) {
+    ['globals'].map(function(brand) {
 
         console.log('\n==============================================');
         console.log(`\nProcessing: [${platform}] [${brand}]`);

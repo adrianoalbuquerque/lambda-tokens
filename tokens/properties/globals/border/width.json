@@ -5,20 +5,16 @@
                 "value": "0px",
                 "brand": "globals"
             },
-            "hairline": {
+            "sm": {
                 "value": "1px",
                 "brand": "globals"
             },
-            "thin": {
+            "md": {
                 "value": "2px",
                 "brand": "globals"
             },
-            "thick": {
+            "lg": {
                 "value": "4px",
-                "brand": "globals"
-            },
-            "heavy": {
-                "value": "8px",
                 "brand": "globals"
             }
         }

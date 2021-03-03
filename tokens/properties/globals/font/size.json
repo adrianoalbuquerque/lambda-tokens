@@ -40,10 +40,6 @@
             "display": {
                 "value": "80px",
                 "brand": "globals"
-            },
-            "giant": {
-                "value": "96px",
-                "brand": "globals"
             }
         }
     }

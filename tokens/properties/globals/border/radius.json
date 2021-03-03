@@ -6,23 +6,23 @@
                     "brand": "globals"
                 },
                 "sm": {
-                    "value": "8px",
+                    "value": "4px",
                     "brand": "globals"
                 },
                 "md": {
-                    "value": "16px",
+                    "value": "8px",
                     "brand": "globals"
                 },
                 "lg": {
-                    "value": "24px",
+                    "value": "16px",
                     "brand": "globals"
                 },
                 "pill": {
-                    "value": "500px",
+                    "value": "80px",
                     "brand": "globals"
                 },
                 "circular": {
-                    "value": "50%",
+                    "value": "100%",
                     "brand": "globals"
                 }
             }
