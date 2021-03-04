@@ -11,7 +11,7 @@
     <item name="borderWidthSm">1dp</item>
     <item name="borderWidthMd">2dp</item>
     <item name="borderWidthLg">4dp</item>
-    <item name="fontFamilyBase">Inter</item>
+    <item name="fontFamilyBase">'Inter', sans-serif</item>
     <item name="fontSizeXxxs">12dp</item>
     <item name="fontSizeXxs">14dp</item>
     <item name="fontSizeXs">16dp</item>
