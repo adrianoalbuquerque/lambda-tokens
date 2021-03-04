@@ -17,8 +17,11 @@
     <color name="colorNeutralDarkPure">#666666</color>
     <color name="colorNeutralDarkUp">#3D3D3D</color>
     <color name="colorNeutralDarkDown">#121212</color>
-    <color name="colorBrandPrimaryPure">#2976D3</color>
-    <color name="colorBrandPrimaryDark">#004191</color>
-    <color name="colorBrandPrimaryLight">#E3F0FF</color>
+    <color name="colorBrandPrimaryPure">#F56700</color>
+    <color name="colorBrandPrimaryDark">#DD5D00</color>
+    <color name="colorBrandPrimaryLight">#FFF1E4</color>
+    <color name="colorBrandSecondaryPure">#2976D3</color>
+    <color name="colorBrandSecondaryDark">#004191</color>
+    <color name="colorBrandSecondaryLight">#E3F0FF</color>
     
 </resources>

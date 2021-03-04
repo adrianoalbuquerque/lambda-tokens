@@ -19,9 +19,12 @@
     <key>colorNeutralDarkPure</key><string>#666666</string>
     <key>colorNeutralDarkUp</key><string>#3D3D3D</string>
     <key>colorNeutralDarkDown</key><string>#121212</string>
-    <key>colorBrandPrimaryPure</key><string>#2976D3</string>
-    <key>colorBrandPrimaryDark</key><string>#004191</string>
-    <key>colorBrandPrimaryLight</key><string>#E3F0FF</string>
+    <key>colorBrandPrimaryPure</key><string>#F56700</string>
+    <key>colorBrandPrimaryDark</key><string>#DD5D00</string>
+    <key>colorBrandPrimaryLight</key><string>#FFF1E4</string>
+    <key>colorBrandSecondaryPure</key><string>#2976D3</string>
+    <key>colorBrandSecondaryDark</key><string>#004191</string>
+    <key>colorBrandSecondaryLight</key><string>#E3F0FF</string>
     
 </dict>
 </plist>

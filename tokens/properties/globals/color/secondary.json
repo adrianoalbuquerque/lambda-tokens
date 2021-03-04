@@ -1,7 +1,7 @@
 {
   "color": {
       "brand": {
-          "primary": {
+          "secondary": {
               "pure": {
                   "value": "#2976D3",
                   "type": "color",
