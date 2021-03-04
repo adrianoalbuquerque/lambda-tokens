@@ -2,7 +2,7 @@
   "font": {
     "family": {
       "base": {
-        "value": "Inter",
+        "value": "'Inter', sans-serif",
         "brand": "globals",
         "attributes": {"font": "base"}
       }
